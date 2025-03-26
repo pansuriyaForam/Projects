@@ -15,7 +15,7 @@
         "techStack": ["Python", "TextBlob", "NLTK", "Random"],
         "hoverMessage": "😊 Detect emotions and receive personalized feedback!",
         "livePreview": "#",
-        "githubLink": "https://github.com/username/sentiment-mood-analyzer"
+        "githubLink": "https://github.com/pansuriyaForam/Python/blob/main/Codes/emoji_mood_predictor.py"
     },
     {
         "title": "RFiX - Finance & Exploration",
