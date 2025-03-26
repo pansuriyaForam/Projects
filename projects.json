@@ -1,0 +1,105 @@
+[
+    {
+        "title": "AI Sentiment Analyzer",
+        "description": "Advanced NLP tool for real-time sentiment detection.",
+        "category": "AI",
+        "techStack": ["Python", "TensorFlow", "NLTK"],
+        "hoverMessage": "🤖 Decoding emotions, one tweet at a time!",
+        "livePreview": "#",
+        "githubLink": "https://github.com/username/ai-sentiment"
+    },
+    {
+        "title": "Sentiment-Based Mood Analyzer",
+        "description": "A Python-based tool that analyzes user sentiment and provides mood-based feedback.",
+        "category": "AI",
+        "techStack": ["Python", "TextBlob", "NLTK", "Random"],
+        "hoverMessage": "😊 Detect emotions and receive personalized feedback!",
+        "livePreview": "#",
+        "githubLink": "https://github.com/username/sentiment-mood-analyzer"
+    },
+    {
+        "title": "RFiX - Finance & Exploration",
+        "description": "A collection of R programming experiments in Quant Finance, AI, and Risk Analysis.",
+        "category": "Data Science",
+        "techStack": ["R"],
+        "hoverMessage": "📈 Exploring finance & AI with R!",
+        "githubLink": "https://github.com/forampatel208/RFiX"
+    },
+    {
+        "title": "Data Visualization Dashboard",
+        "description": "Complex data insights through interactive charts.",
+        "category": "Python",
+        "techStack": ["Python", "Pandas", "Plotly"],
+        "hoverMessage": "📊 Turning data into stories!",
+        "livePreview": "#",
+        "githubLink": "https://github.com/username/data-viz"
+    },
+    {
+        "title": "Mastering C",
+        "description": "Comprehensive repository for learning and revising C programming concepts.",
+        "category": "Programming",
+        "techStack": ["C"],
+        "hoverMessage": "🔍 Unravel the mysteries of C, one pointer at a time!",
+        "githubLink": "https://github.com/forampatel208/Mastering_C"
+    },
+    {
+        "title": "JavaScript Experiments",
+        "description": "A collection of JavaScript projects and experiments.",
+        "category": "Programming",
+        "techStack": ["JavaScript"],
+        "hoverMessage": "💡 Exploring JavaScript, one project at a time!",
+        "githubLink": "https://github.com/pansuriyaForam/javaScript"
+    },
+    {
+        "title": "Lua Projects",
+        "description": "Collection of projects and exercises in Lua programming language.",
+        "category": "Programming",
+        "techStack": ["Lua"],
+        "hoverMessage": "🐍 Scripting adventures await in the world of Lua!",
+        "githubLink": "https://github.com/pansuriyaForam/Lua"
+    },
+    {
+        "title": "KarmShell",
+        "description": "A collection of automation scripts, system utilities, and cool tech experiments written in Bash (.sh) and Batch (.bat).",
+        "category": "Automation",
+        "techStack": ["Bash", "Batch"],
+        "hoverMessage": "⚡ Automate tasks and boost productivity!",
+        "githubLink": "https://github.com/forampatel208/KarmShell"
+    },
+    {
+        "title": "Decentralized Voting App",
+        "description": "Blockchain-powered voting platform ensuring transparency.",
+        "category": "Web3",
+        "techStack": ["Solidity", "React", "Web3.js"],
+        "hoverMessage": "🗳️ Democracy meets blockchain!",
+        "livePreview": "#",
+        "githubLink": "https://github.com/username/voting-dapp"
+    },
+    {
+        "title": "Cosmic Snake - A Galactic Adventure",
+        "description": "An interstellar twist on the classic snake game.",
+        "category": "Game Development",
+        "techStack": ["Lua", "LÖVE2D"],
+        "hoverMessage": "🚀 Embark on a cosmic journey with a hungry snake!",
+        "livePreview": "https://pansuriyaforamben.itch.io/cosmic-snake-a-galactic-adventure",
+        "githubLink": "https://github.com/pansuriyaForam/Lua/tree/main/Projects/SnakeGame"
+    },
+    {
+        "title": "Tic-Tac-Toe Game",
+        "description": "Classic Tic-Tac-Toe game implemented with JavaScript.",
+        "category": "Game Development",
+        "techStack": ["JavaScript"],
+        "hoverMessage": "❌⭕ Ready for a nostalgic duel? Let's play!",
+        "livePreview": "#",
+        "githubLink": "https://github.com/forampatel208/Tic-Tac-Toe"
+    },
+    {
+        "title": "Interactive Portfolio",
+        "description": "Modern, animated personal portfolio website.",
+        "category": "HTML/CSS/JS",
+        "techStack": ["HTML", "CSS", "JavaScript"],
+        "hoverMessage": "✨ Code is art, websites are canvas!",
+        "livePreview": "#",
+        "githubLink": "https://github.com/username/portfolio"
+    }
+]
