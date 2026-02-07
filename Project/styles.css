@@ -1,0 +1,184 @@
+:root {
+    --bg-primary: #0a0a1a;
+    --bg-secondary: #161629;
+    --text-primary: #e0e0ff;
+    --neon-blue: #00ffff;
+    --neon-purple: #9900ff;
+    --neon-pink: #ff00bf;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, var(--bg-primary), var(--bg-secondary));
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+    perspective: 1000px;
+}
+
+.background-particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+    background: rgba(22, 22, 41, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    background: linear-gradient(45deg, var(--neon-blue), var(--neon-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 10px rgba(153, 0, 255, 0.5);
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.filter-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid var(--neon-blue);
+    color: var(--neon-blue);
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+}
+
+.filter-btn.active, .filter-btn:hover {
+    background: var(--neon-blue);
+    color: var(--bg-primary);
+    box-shadow: 0 0 20px var(--neon-blue);
+    transform: scale(1.1);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background: rgba(22, 22, 41, 0.7);
+    border-radius: 15px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 255, 255, 0.2);
+}
+
+.project-card:hover {
+    transform: scale(1.05) rotate3d(1, 1, 0, 3deg);
+    transition: all 0.3s ease-out;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+}
+
+.project-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: var(--neon-blue);
+    text-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+}
+
+.project-description {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+}
+
+.tech-stack {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tech-icon {
+    font-size: 1.5rem;
+    color: var(--neon-pink);
+}
+
+.hover-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+.project-card:hover .hover-message {
+    opacity: 1;
+    pointer-events: none;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.project-link {
+    text-decoration: none;
+    color: var(--neon-purple);
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: var(--neon-blue);
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(22, 22, 41, 0.7);
+    margin-top: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
